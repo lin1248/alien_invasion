@@ -49,7 +49,7 @@ class Ship():
                 print("new bullet")
         elif self.fire and self.count < self.fire_cold_time:
             self.count += 1
-            print(self.count)
+            
         elif self.fire and self.count > self.fire_cold_time:
             self.count = 0
             
