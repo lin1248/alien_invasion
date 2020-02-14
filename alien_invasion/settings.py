@@ -11,6 +11,7 @@ class Settings():
         self.bg_color = (230,230,230)
 
         self.ship_speed = 1.5
+        self.ship_limit = 3
         
         self.alien_speed = 1
         self.alien_drop_speed = 10
